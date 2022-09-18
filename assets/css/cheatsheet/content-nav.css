@@ -1,0 +1,18 @@
+.content header nav {
+    height: 4rem;
+    overflow: hidden;
+    background: #eee;
+}
+
+.content header nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content header nav ul li a {
+    font-size: 0.8rem;
+    padding: 1.4rem 1.8rem 0rem 0.8rem;
+    text-decoration: none;
+    display: block;
+    color: #333;
+}

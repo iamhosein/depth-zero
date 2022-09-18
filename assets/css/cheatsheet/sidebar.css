@@ -1,0 +1,25 @@
+.sidebar {
+    border-right: 1px solid #eee;
+}
+
+.sidebar nav {
+    display: block;
+    padding: 1rem;
+    height: calc(100vh - 8rem);
+    overflow: hidden;
+}
+
+.sidebar nav h2 {
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.sidebar nav ul {
+    font-size: 0.8rem;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: #333;
+    padding-left: 1rem;
+}

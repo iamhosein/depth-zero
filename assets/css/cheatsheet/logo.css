@@ -1,0 +1,29 @@
+.logo {
+    background: #eee;
+    display: block;
+    width: 100%;
+    height: 4rem;
+    overflow: hidden;
+}
+
+.logo a {
+    display: flex;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: #000;
+}
+
+.logo a img {
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    flex: 1;
+}
+
+.logo a h1 {
+    flex: 4;
+    padding: .8rem 0 0 .3rem;
+    font-size: 0.8rem;
+    display: flex;
+    font-weight: 900;
+}
