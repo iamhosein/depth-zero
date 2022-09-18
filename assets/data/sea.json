@@ -1,0 +1,122 @@
+[
+    {
+        "img": "https://cdn.britannica.com/47/5947-004-98E0BEC4/Caspian-Sea-Karakum-Desert.jpg?w=400&h=225&c=crop",
+        "title": "Caspian Sea",
+        "url": "https://www.britannica.com/place/Caspian-Sea",
+        "text": "Caspian Sea, world’s largest inland body of water. It lies to the east of the Caucasus Mounta ..."
+    },
+      {
+        "img": "https://cdn.britannica.com/10/6010-050-56184E94/Mediterranean-Sea.jpg?w=400&h=225&c=crop",
+        "title": "Mediterranean Sea",
+        "url": "https://www.britannica.com/place/Mediterranean-Sea",
+        "text": "Mediterranean Sea, an intercontinental sea that stretches from the Atlantic Ocean on the west ..."
+    },
+    {
+        "img": "https://cdn.britannica.com/04/6004-050-EBC240F4/depth-contours-Atlantic-Ocean-submarine-features.jpg?w=400&h=225&c=crop",
+        "title": "Atlantic Ocean",
+        "url": "https://www.britannica.com/place/Atlantic-Ocean",
+        "text": "Atlantic Ocean, body of salt water covering approximately one-fifth of Earth’s surface and separating the continents of Europe and Africa to the east fro ..."
+    },
+    {
+        "img": "https://cdn.britannica.com/00/5800-050-5F164744/extent-Aral-Sea-lake-world-projects-shrinkage-1960.jpg?w=400&h=225&c=crop",
+        "title": "Aral Sea",
+        "url": "https://www.britannica.com/place/Aral-Sea",
+        "text": "Aral Sea, a once-large saltwater lake of Central Asia. It straddles the boundary between Kaza ..."
+    },
+    {
+        "img": "https://cdn.britannica.com/18/3318-050-7C7EC532/East-China-seas-South.jpg?w=400&h=225&c=crop",
+        "title": "Yellow Sea",
+        "url": "https://www.britannica.com/place/Yellow-Sea",
+        "text": "Yellow Sea, large inlet of the western Pacific Ocean lying between mainland China on the west ..."
+    },
+    {
+        "img": "https://cdn.britannica.com/86/116486-050-80B26EDD/El-Gouna-Egypt-Red-Sea.jpg?w=400&h=225&c=crop",
+        "title": "Red Sea",
+        "url": "https://www.britannica.com/place/Red-Sea",
+        "text": "Red Sea, narrow strip of water extending southeastward from Suez, Egypt, for about 1,200 miles (1,930 km) to the Bab el-Man ..."
+    },
+    {
+        "img": "https://cdn.britannica.com/19/3319-050-4ACFF11F/Seas-Japan-Okhotsk.jpg?w=400&h=225&c=crop",
+        "title": "Sea of Okhotsk",
+        "url": "https://www.britannica.com/place/Sea-of-Okhotsk",
+        "text": "Sea of Okhotsk, northwestern arm of the Pacific Ocean, bounded on the west and north by the e ..."
+    },
+    {
+        "img": "https://cdn.britannica.com/43/1643-050-18777C7C/Arabian-Sea-Bay-of-Bengal.jpg?w=400&h=225&c=crop",
+        "title": "Arabian Sea",
+        "url": "https://www.britannica.com/place/Arabian-Sea",
+        "text": "Arabian Sea, northwestern part of the Indian Ocean, covering a total area of about 1,491,000 square miles (3,862,000 square km)  ..."
+    },
+    {
+        "img": "https://cdn.britannica.com/14/3314-050-52C82811/depth-contours-Pacific-Ocean-submarine-features.jpg?w=400&h=225&c=crop",
+        "title": "Pacific Ocean",
+        "url": "https://www.britannica.com/place/Pacific-Ocean",
+        "text": "Pacific Ocean, body of salt water extending from the 60° S parallel in the south to the Arcti ..."
+    },
+    {
+        "img": "https://cdn.britannica.com/53/5853-004-FF0BE165/North-Pole.jpg?w=400&h=225&c=crop",
+        "title": "Arctic Ocean",
+        "url": "https://www.britannica.com/place/Arctic-Ocean",
+        "text": "Arctic Ocean, smallest of the world’s oceans, centring approximately on the North Pole. The Arctic Ocean and its marginal seas—the Chukchi, E ..."
+    },
+    {
+        "img": "https://cdn.britannica.com/80/89980-050-B86446FC/Northwest-Passage.jpg?w=400&h=225&c=crop",
+        "title": "Northwest Passage",
+        "url": "https://www.britannica.com/place/Northwest-Passage-trade-route",
+        "text": "Northwest Passage, historical sea passage of the North American continent. It represents cent ..."
+    },
+    {
+        "img": "https://cdn.britannica.com/19/3319-050-4ACFF11F/Seas-Japan-Okhotsk.jpg?w=400&h=225&c=crop",
+        "title": "Sea of Japan",
+        "url": "https://www.britannica.com/place/Sea-of-Japan",
+        "text": "Sea of Japan, marginal sea of the western Pacific Ocean. It is bounded by Japan and Sakhalin  ..."
+    },
+    {
+        "img": "https://cdn.britannica.com/16/3316-050-04D8D653/Bering-Sea-Strait.jpg?w=400&h=225&c=crop",
+        "title": "Bering Sea and Strait",
+        "url": "https://www.britannica.com/place/Bering-Sea",
+        "text": "Bering Sea and Strait, northernmost part of the Pacific Ocean, separating the continents of Asia and North America. To the north the Bering Sea connects with the Arctic Oce ..."
+    },
+    {
+        "img": "https://cdn.britannica.com/09/6009-004-D15E36BB/Caribbean-Sea.jpg?w=400&h=225&c=crop",
+        "title": "Caribbean Sea",
+        "url": "https://www.britannica.com/place/Caribbean-Sea",
+        "text": "Caribbean Sea, suboceanic basin of the western Atlantic Ocean, lying between latitudes 9° and 22° N and longitudes 89° and 60° W. It is approximately 1,063,000 square miles (2,753,000  ..."
+    },
+    {
+        "img": "https://cdn.britannica.com/18/3318-050-7C7EC532/East-China-seas-South.jpg?w=400&h=225&c=crop",
+        "title": "South China Sea",
+        "url": "https://www.britannica.com/place/South-China-Sea",
+        "text": "South China Sea, arm of the western Pacific Ocean that borders the Southeast Asian mainland. It is bounded on the northeast by the Taiwan Strait (by which it is con ..."
+    },
+    {
+        "img": "https://cdn.britannica.com/41/1641-050-947020DF/depth-contours-Indian-Ocean-features.jpg?w=400&h=225&c=crop",
+        "title": "Indian Ocean",
+        "url": "https://www.britannica.com/place/Indian-Ocean",
+        "text": "Indian Ocean, body of salt water covering approximately one-fifth of the total ocean area of  ..."
+    },
+    {
+        "img": "https://cdn.britannica.com/08/6008-050-93166E97/Black-Sea.jpg?w=400&h=225&c=crop",
+        "title": "Black Sea",
+        "url": "https://www.britannica.com/place/Black-Sea",
+        "text": "Black Sea, large inland sea situated at the southeastern extremity of Europe. It is bordered by Ukraine to the north, Russia to the northeast, Georgia to the east, Turkey to the ..."
+    },
+    {
+        "img": "https://cdn.britannica.com/06/6006-050-7AA8BFF2/Baltic-Sea-North-English-Channel.jpg?w=400&h=225&c=crop",
+        "title": "Baltic Sea",
+        "url": "https://www.britannica.com/place/Baltic-Sea",
+        "text": "Baltic Sea, arm of the North Atlantic Ocean, extending northward from the latitude of souther ..."
+    },
+    {
+        "img": "https://cdn.britannica.com/06/6006-050-7AA8BFF2/Baltic-Sea-North-English-Channel.jpg?w=400&h=225&c=crop",
+        "title": "North Sea",
+        "url": "https://www.britannica.com/place/North-Sea",
+        "text": "North Sea, shallow, northeastern arm of the Atlantic Ocean, located between the British Isles and the mainland of northwestern Europe and covering an area of  ..."
+    },
+    {
+        "img": "https://cdn.britannica.com/45/1645-050-36D63645/Persian-Gulf.jpg?w=400&h=225&c=crop",
+        "title": "Persian Gulf",
+        "url": "https://www.britannica.com/place/Persian-Gulf",
+        "text": "Persian Gulf, shallow marginal sea of the Indian Ocean that lies between the Arabian Peninsula and southwestern Iran. The sea has an area of about 93,000 squar ..."
+    }
+]

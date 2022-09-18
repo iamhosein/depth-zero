@@ -1,5 +1,11 @@
 {
   "dependencies": {
     "parcel": "^2.7.0"
+  },
+  "devDependencies": {
+    "parcel-plugin-static-files-copy": "^2.6.0"
+  },
+  "staticFiles": {
+    "staticPath": "./assets/data/"
   }
 }

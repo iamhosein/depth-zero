@@ -1,0 +1,142 @@
+nav {
+    color: #fff;
+    background-color: #5995DA;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    display: flex;
+}
+
+nav ul.top-menu {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul.top-menu li {
+    justify-content: space-between;
+}
+
+nav ul.sub-menu {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li.date-menu {
+    justify-content: flex-start;
+    margin-left: 1rem;
+}
+
+nav ul li.login-menu {
+    justify-content: flex-end;
+}
+
+nav ul li.login-menu li {
+    margin-right: 1rem;
+}
+
+
+
+.header-container {
+    color: #5995DA;
+    background-color: #D6E9FE;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    width: 900px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo img {
+    height: 2rem;
+}
+
+.photo-grid-container {
+    display: flex;
+    justify-content: center;
+}
+
+.photo-grid {
+    width: 900px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.photo-grid-item {
+    border: 1px solid #fff;
+    width: 300px;
+    height: 300px;
+}
+
+
+.first-item {
+    order: 1;
+}
+
+.last-item {
+    order: -1;
+}
+
+/* .social,
+.subscribe {
+    align-self: flex-end;
+    margin-bottom: 20px;
+} */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-item {
+    border: 1px solid #fff;
+    background-color: #D6E9FE;
+    height: 200px;
+    flex: 1;
+}
+
+/* 
+.footer-three {
+    flex: 2;
+} */
+
+.footer-one,
+.footer-three {
+    background-color: #5995DA;
+    flex: initial;
+    width: 300px;
+}
+
+
+
+.menu-container {
+    color: #fff;
+    background-color: #5995DA;
+    /* Blue */
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    border: 1px solid #fff;
+    /* For debugging */
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ssignup {
+    margin-left: auto;
+}
