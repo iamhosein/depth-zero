@@ -1,11 +1,8 @@
-/*
-Panels with images are somewhat jerky when all panels are transitioning. Ideas on improvements are welcome in the comments!
-*/
-var btn = $('button');
-var body = $("body");
-
-btn.on("click", function () {
-    body.toggleClass("hide-images");
+var texts = ["High Contrast", "Normal"];
+var i = 1;
+$("button").on("click", function () {
+    $("body").toggleClass("hide-images");
+    $(this).html(texts[i++ % 2])
 });
 
 $(".section-video-bg").hover(function () {

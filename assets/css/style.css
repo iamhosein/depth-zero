@@ -1,10 +1,24 @@
-* {
-    box-sizing: border-box;
+a {
+    color: #aaa;
 }
 
-body {
-    width: 100vw;
-    overflow: hidden;
+h2 {
+    font-size: 1.6em;
+    margin-bottom: 12px;
+}
+
+button {
+    position: fixed;
+    top: 12px;
+    left: 12px;
+    padding: 8px 12px;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    border: none;
+    outline: none;
+    cursor: pointer;
 }
 
 main {
@@ -15,40 +29,19 @@ main {
     transform: translate3d(0, 0, 0);
 }
 
-a {
-    color: #aaa;
-}
-
-@media (min-width: 960px) {
-    main {
-        flex-direction: row;
-        width: 130vw;
-        margin-left: -15vw;
-    }
-}
-
 main .section:not(:first-child):not(:last-child):hover,
-main .section.active:not(:first-child):not(:last-child) {
+main .section.active {
     flex: 2;
 }
 
-main .section:not(:first-child):not(:last-child):after {
+main .section:after {
     opacity: 0.6;
 }
 
-main .section:not(:first-child):not(:last-child):hover article,
-main .section.active:not(:first-child):not(:last-child) article {
+main .section:hover article,
+main .section.active article {
     opacity: 1;
-    transform: translateY(0);
     transition: opacity 0.2s 0.2s, transform 0.2s 0.2s;
-}
-
-@media (min-width: 960px) {
-
-    main .section:not(:first-child):not(:last-child):hover article,
-    main .section.active:not(:first-child):not(:last-child) article {
-        transform: translateY(0) skewX(-15deg);
-    }
 }
 
 .section {
@@ -59,20 +52,6 @@ main .section.active:not(:first-child):not(:last-child) article {
     overflow: hidden;
     z-index: 1;
     transition: flex-grow 0.2s, opacity 0.2s;
-}
-
-
-
-.section.section-video-bg {
-    overflow: hidden;
-}
-
-.section.section-video-bg video {
-    width: auto;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    left: 0;
 }
 
 .section:before {
@@ -97,7 +76,75 @@ main .section.active:not(:first-child):not(:last-child) article {
     transition: opacity 0.2s;
 }
 
-@media (min-width: 960px) {
+.section:first-child:before,
+.section:last-child:before {
+    /* The first and last box background color */
+    background-color: #4b4b4b;
+
+}
+
+.section:nth-child(2):before {
+    /* The 2nd Box Background */
+    background-color: #5a5a5a;
+    background-image: url(../img/90s.jpg);
+    background-size: contain;
+    background-position: 25vw center;
+}
+
+.section:nth-child(3) {
+    /* The middle Box */
+    overflow: hidden;
+}
+
+.section:nth-child(3) video {
+    /* The middle Box Video */
+    width: auto;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.section:nth-child(4):before {
+    /* The 4th Box Background */
+    background-color: #3c3c3c;
+    background-image: url(../img/css.png);
+    background-size: contain;
+    background-position: 25vw center;
+}
+
+article {
+    position: relative;
+    padding: 2rem;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+    font-size: 1rem;
+}
+
+
+.hide-images .section:before {
+    background-image: none;
+}
+
+.hide-images .section video {
+    display: none;
+}
+
+
+@media (min-width: 768px) {
+    main {
+        flex-direction: row;
+        width: 130vw;
+        margin-left: -15vw;
+    }
+
+    main .section:hover article {
+        transform: skewX(-15deg);
+    }
+
     .section {
         width: 20vw;
         height: 100vh;
@@ -110,83 +157,7 @@ main .section.active:not(:first-child):not(:last-child) article {
         width: 400vw;
         transform: skewX(-15deg);
     }
-}
 
-.hide-images .section.section-video-bg video {
-    display: none;
-}
-
-.section:first-child:before,
-.section:last-child:before {
-    background-color: #000;
-}
-
-.section:first-child:after,
-.section:last-child:after {
-    opacity: 0.5;
-}
-
-.section:first-child article,
-.section:last-child article {
-    display: none;
-}
-
-.section:nth-child(2):before {
-    /* The 2th Box Background */
-    background-color: rgb(32, 32, 32);
-    background-image: url(../img/90s-code.jpg);
-    background-size: contain;
-    background-position: 25vw center;
-}
-
-.hide-images .section:nth-child(2):before {
-    background-image: none;
-}
-
-section:nth-child(3):before {
-    /* The 3th Box Background */
-    background-color: #3c3c3c;
-    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/bg-section--3.jpg);
-}
-
-.hide-images .section:nth-child(3):before {
-    background-image: none;
-}
-
-.section:nth-child(4):before {
-    /* The 4th Box Background */
-    background-color: #5a5a5a;
-    background-image: url(../img/css.png);
-    background-size: contain;
-    background-position: 25vw center;
-}
-
-.hide-images .section:nth-child(4):before {
-    background-image: none;
-}
-
-section:nth-child(5):before {
-    /* The 5th Box Background */
-    background-color: #000;
-}
-
-.hide-images section:nth-child(5):before {
-    background-image: none;
-}
-
-article {
-    position: relative;
-    padding: 24px;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    color: white;
-    z-index: 1;
-    transition: opacity 0.2s, transform 0.2s;
-    font-size: 1rem;
-}
-
-@media (min-width: 960px) {
     article {
         display: flex;
         flex-direction: column;
@@ -198,52 +169,6 @@ article {
         left: 0;
         margin: auto;
         opacity: 0.7;
-        transform: translateY(24px) skewX(-15deg);
-        /* background: #0003; */
+        transform: skewX(-15deg);
     }
 }
-
-h2 {
-    font-size: 1.6em;
-    margin-bottom: 12px;
-}
-
-button {
-    position: fixed;
-    top: 12px;
-    left: 12px;
-    padding: 8px 12px;
-    font-size: 10px;
-    text-transform: uppercase;
-    color: white;
-    background-color: black;
-    border: none;
-    outline: none;
-    cursor: pointer;
-}
-
-/* header {
-    display: flex;
-    height: 3rem;
-    overflow: hidden;
-    background: red;
-}
-
-article {
-    display: flex;
-    flex: 4;
-    background: blue;
-}
-
-aside {
-    display: flex;
-    flex: 1;
-    background: purple;
-}
-
-footer {
-    display: flex;
-    height: 3rem;
-    overflow: hidden;
-    background: red;
-} */

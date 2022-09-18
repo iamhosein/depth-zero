@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Seaweed+Script&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0 none;
@@ -92,32 +92,33 @@ article p {
     display: block;
 }
 
-.gallery video, .gallery iframe {
+.gallery video,
+.gallery iframe {
     width: 40vw;
     margin: 10px auto;
     height: auto;
     display: block;
 }
 
-#ocean-wave{
+#ocean-wave {
     width: 350px;
     margin: 0 auto;
     display: block;
 }
 
-.responsive-boxes{
+.responsive-boxes {
     display: inline-block;
     height: 20px;
     margin: 1px;
     vertical-align: top;
 }
 
-footer{
+footer {
     background: #000;
     color: #fff;
 }
 
-.video-bg{
+.video-bg {
     width: 150vw;
     height: auto;
     position: fixed;
@@ -126,19 +127,18 @@ footer{
     background: #013e68;
 }
 
-.video-bg video{
-    width: 100%;
+.video-bg video {
+    width: 400vw;
     height: 100%;
-    clip: 150%;
 }
 
-.content{
+.content {
     width: 100vw;
     height: 100vh;
     position: fixed;
     left: 0;
     top: 0;
-    background: rgba(0,0,0,0.4);
+    background: rgba(0, 0, 0, 0.4);
     overflow: auto;
 }
 
@@ -158,27 +158,27 @@ footer{
 
 .sea {
     margin: 1rem 0;
-    background-color: rgba(255,255,255,0.3);
+    background-color: rgba(255, 255, 255, 0.3);
     border-radius: 0.5rem;
     overflow: hidden;
     display: block;
 }
 
-.sea h2{
+.sea h2 {
     margin: 1rem 0 0 1rem;
 }
 
-.sea blockquote{
+.sea blockquote {
     padding: 1rem;
 }
 
-.sea img{
+.sea img {
     width: 100%;
     height: auto;
     opacity: 0.5;
 }
 
-.sea img:hover{
+.sea img:hover {
     opacity: 1;
 }
 
@@ -200,7 +200,7 @@ footer{
 
 @media (max-width: 767px) {
 
-    
+
 
     .gallery img,
     .gallery video {
@@ -209,6 +209,62 @@ footer{
     }
 }
 
-.hidden{
+.hidden {
     display: none;
+}
+
+.happy-color span:nth-child(1) {
+    color: red;
+}
+
+.happy-color span:nth-child(2) {
+    color: blue;
+}
+
+.happy-color span:nth-child(3) {
+    color: palegreen;
+}
+
+.happy-color span:nth-child(4) {
+    color: antiquewhite;
+}
+
+.happy-color span:nth-child(5) {
+    color: aqua;
+}
+
+.happy-color span:nth-child(6) {
+    color: brown;
+}
+
+.happy-color span:nth-child(7) {
+    color: cadetblue;
+}
+
+.happy-color span:nth-child(8) {
+    color: crimson;
+}
+
+.happy-color span:nth-child(9) {
+    color: darkblue;
+}
+
+.happy-color span:nth-child(10) {
+    color: darkgreen;
+}
+
+.happy-color span:nth-child(11) {
+    color: fuchsia;
+}
+
+.happy-color span:nth-child(12) {
+    color: gold;
+}
+
+.happy-color span:nth-child(13) {
+    color: hotpink;
+}
+
+.happy-color span:nth-child(14) {
+    color: indigo;
 }

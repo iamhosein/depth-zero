@@ -19,16 +19,28 @@ $(document).ready(function () {
         }
     });
 
+    function randomRGB() {
+        return "rgb(" + Math.random() * 254 + "," + Math.random() * 254 + "," + Math.random() * 254 + ")";
+    }
+
     var $container = $("#responsive-boxes");
     var text = $("#main-content").text();
     var words = text.split(' ');
     for (var i = 0; i < 500; i++) {
         var id = "id-" + i;
+        
         var r = Math.random() * 254;
         var g = Math.random() * 254;
         var b = Math.random() * 254;
+        
         var word = words[Math.ceil(Math.random() * words.length)];
-        var $elm = $("<span id='" + id + "' style='width: auto; background:rgb(" + r + "," + g + "," + b + ")'>" + word + "</span>");
+        if(!word || !word.length){
+            continue;
+        }
+
+        word = "<span>" + word.split('').join("</span><span>") + "</span>";
+        
+        var $elm = $("<span class='happy-color' id='" + id + "' style='width: auto; background:rgb(" + r + "," + g + "," + b + ")'>" + word + "</span>");
         $elm.addClass("responsive-boxes");
         $container.append($elm);
     }
