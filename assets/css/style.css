@@ -149,7 +149,7 @@ article {
         width: 20vw;
         height: 100vh;
         margin-right: -1px;
-        transform: skewX(15deg) translateZ(0);
+        transform: skewX(15deg);
     }
 
     .section:before {

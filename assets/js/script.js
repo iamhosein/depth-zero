@@ -5,6 +5,6 @@ $("button").on("click", function () {
     $(this).html(texts[i++ % 2])
 });
 
-$(".section-video-bg").hover(function () {
-    $(this).removeClass("active");
+$(".section").hover(function () {
+    $(".section").removeClass("active");
 });

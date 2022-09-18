@@ -1,0 +1,27 @@
+body {
+    background: #fff;
+}
+
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 15rem;
+    display: flex;
+    background: red;
+}
+
+.content {
+    background: black;
+    flex: 5;
+    display: flex;
+}
+
+
+@media (max-width: 768px) {
+    .sidebar {
+        display: none;
+    }
+}
