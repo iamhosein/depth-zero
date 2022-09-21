@@ -268,3 +268,34 @@ footer {
 .happy-color span:nth-child(14) {
     color: indigo;
 }
+
+#ball {
+    position: fixed;
+    background: #abf;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    left: 0;
+    top: 0;
+    transition: ease-out 100ms;
+    translate: -50% -50%;
+    animation: ball-animation 1s infinite;
+}
+
+@keyframes ball-animation {
+    0% {
+        background: #acf;
+    }
+
+    25% {
+        background: #adf;
+    }
+
+    50% {
+        background: #aef;
+    }
+
+    25% {
+        background: #aff;
+    }
+}
