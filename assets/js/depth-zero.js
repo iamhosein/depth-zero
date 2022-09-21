@@ -79,7 +79,7 @@ const state = {
     containerWidth: window.innerWidth,
     containerHeight: window.innerHeight,
     interval: {},
-    animation: {},
+    animation: null,
     movingByMouseTimer: {},
     ball: document.querySelector('#ball')
 };
@@ -93,7 +93,9 @@ function mover() {
     state.top += state.directionY * state.speed;
     state.ball.style.left = `${state.left}px`;
     state.ball.style.top = `${state.top}px`;
-    state.animation = requestAnimationFrame(mover);
+    if (!state.animation) {
+        state.animation = requestAnimationFrame(mover);
+    }
     if (state.left > state.containerWidth - state.ball.clientWidth || state.left < 0) {
         state.directionX *= -1;
     }
