@@ -115,8 +115,11 @@ function moveCircle(e) {
     }
     let x = e.clientX;
     let y = e.clientY;
-    ball.style.top = y + 'px';
-    ball.style.left = x + 'px';
+
+    if (x < (window.innerWidth - ball.clientWidth) && y < (window.innerHeight - ball.clientHeight)) {
+        ball.style.top = y + 'px';
+        ball.style.left = x + 'px';
+    }
 }
 
 document.addEventListener('mousemove', moveCircle);
