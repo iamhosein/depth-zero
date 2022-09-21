@@ -93,9 +93,7 @@ function mover() {
     state.top += state.directionY * state.speed;
     state.ball.style.left = `${state.left}px`;
     state.ball.style.top = `${state.top}px`;
-    if (!state.animation) {
-        state.animation = requestAnimationFrame(mover);
-    }
+    state.animation = requestAnimationFrame(mover);
     if (state.left > state.containerWidth - state.ball.clientWidth || state.left < 0) {
         state.directionX *= -1;
     }
@@ -111,6 +109,7 @@ state.animation = requestAnimationFrame(mover);
 function moveCircle(e) {
     state.movingByMouse = true;
     cancelAnimationFrame(state.animation);
+    state.animation = null;
     if (state.movingByMouseTimer) {
         clearTimeout(state.movingByMouseTimer);
     }

@@ -32,6 +32,7 @@ h1 {
     margin: 0;
     background: rgb(10, 0, 177);
     background: linear-gradient(0deg, rgba(10, 0, 177, 1) 0%, rgba(9, 9, 121, 0.5662640056022409) 78%, rgba(0, 212, 255, 1) 100%);
+    animation: bounce 2s infinite 15s;
 }
 
 nav ul {
